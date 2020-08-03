@@ -36,6 +36,10 @@ input[type=submit] {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Floating column for labels: 25% width */
@@ -69,18 +73,18 @@ input[type=submit] {
     </style>
 </head>
 <body class = all>
-     <div class="cotainer">
+     <div class="container">
        <form>
-          <label> First Name</label><br>
-             <input class="FN" type="text" name="First Name" placeholder="Your name..."><br>
-          <label> Last Name</label><br>
-              <input class="LN"type="text" name="Last Name" placeholder="Your last name..."><br>
-          <label> country</label><br>
+          <label>First Name</label>
+             <input class="FN" type="text" name="First Name" placeholder="Your name...">
+          <label>Last Name</label>
+              <input class="LN"type="text" name="Last Name" placeholder="Your last name...">
+          <label>Country</label>
                <select class="CT">
                   <option>Australia</option>
-               </select><br><br>
-          <label> Subject</label><br>
-               <textarea name="Subject" rows="10" cols="105" placeholder="Write something..."></textarea><br><br>
+               </select>
+          <label> Subject</label>
+               <textarea name="Subject" rows="10" cols="105" placeholder="Write something..."></textarea>
 
           <input class="submit" type="submit" name="Upload">
 
